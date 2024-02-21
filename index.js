@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path'); // Helps work with file paths
 const app = express();
 
-const routes = [
+const route = [
   { path: '/', file: 'index.html' },
   // ... your other routes
 ];
